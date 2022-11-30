@@ -16,6 +16,11 @@ net accounts /minpwage:2
 #Establecer la longitud mínima del password, ejemplo: 8
 net accounts /minpwlen:8
 
+#Activar la complejidad de contraseña
+secedit /export /cfg c:\secpol.cfg
+(gc C:\secpol.cfg).replace("PasswordComplexity = 0", "PasswordComplexity = 1") | Out-File C:\secpol.cfg
+secedit /configure /db c:\windows\security\local.sdb /cfg c:\secpol.cfg /areas SECURITYPOLICY
+rm -force c:\secpol.cfg -confirm:$false
 
 #Para consultar la configuración de los parámetros establecidos
 net accounts 
