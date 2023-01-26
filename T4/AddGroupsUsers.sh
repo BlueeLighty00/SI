@@ -16,8 +16,8 @@ groupadd src_x
 
 
 #Creación de usuarios
-useradd -m -d /home/usu_sinformacion -G sinformacion -p sinformacion -s /bin/bash usu_sin>
+useradd -m -d /home/usu_sinformacion -G sinformacion -p sinformacion -s /bin/bash usu_sinformacion
 useradd -m -d /home/usu_desarrollo -G desarrollo -p desarrollo -s /bin/bash usu_desarrollo
-useradd -m -d /home/usu_explotacion -G explotacion -p explotacion -s /bin/bash usu_explot>
+useradd -m -d /home/usu_explotacion -G explotacion -p explotacion -s /bin/bash usu_explotacion
 
 
