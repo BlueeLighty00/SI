@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 mkdir proyectos
 
@@ -15,10 +15,10 @@ setfacl -m g:pruebas_r:r ./proyectos/pruebas
 setfacl -m g:pruebas_w:w ./proyectos/pruebas
 setfacl -m g:pruebas_x:x ./proyectos/pruebas
 
-setfacl -m g:src_r:r ./proyectos/src
-setfacl -m g:src_w:w ./proyectos/src
-setfacl -m g:src_x:x ./proyectos/src
+setfacl -m d:g:src_r:r ./proyectos/src
+setfacl -m d:g:src_w:w ./proyectos/src
+setfacl -m d:g:src_x:x ./proyectos/src
 
-usermod -a -G proyectos_r,src_r,src_w,src_x usu_desarrollo
+usermod -a -G proyectos_x,src_r,src_w,src_x usu_desarrollo
 
-usermod -a -G proyectos_r,src_r,src_x,pruebas_r,pruebas_w,pruebas_x  usu_explotacion
+usermod -a -G proyectos_x,src_r,src_x,pruebas_r,pruebas_w,pruebas_x  usu_explotacion
