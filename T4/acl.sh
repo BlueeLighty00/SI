@@ -3,7 +3,9 @@
 mkdir proyectos
 
 setfacl -m d:g:sinformacion:rwx ./proyectos
+setfacl -m g:sinformacion:rwx ./proyectos
 setfacl -m d:other:0 ./proyectos
+setfacl -m other:0 ./proyectos
 
 mkdir -p ./proyectos/{pruebas,src}
 
@@ -18,6 +20,9 @@ setfacl -m g:pruebas_x:x ./proyectos/pruebas
 setfacl -m d:g:src_r:r ./proyectos/src
 setfacl -m d:g:src_w:w ./proyectos/src
 setfacl -m d:g:src_x:x ./proyectos/src
+setfacl -m g:src_r:r ./proyectos/src
+setfacl -m g:src_w:w ./proyectos/src
+setfacl -m g:src_x:x ./proyectos/src
 
 usermod -a -G proyectos_x,src_r,src_w,src_x usu_desarrollo
 
