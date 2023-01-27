@@ -23,7 +23,3 @@ setfacl -m d:g:src_x:x ./proyectos/src
 setfacl -m g:src_r:r ./proyectos/src
 setfacl -m g:src_w:w ./proyectos/src
 setfacl -m g:src_x:x ./proyectos/src
-
-usermod -a -G proyectos_x,src_r,src_w,src_x usu_desarrollo
-
-usermod -a -G proyectos_x,src_r,src_x,pruebas_r,pruebas_w,pruebas_x  usu_explotacion
