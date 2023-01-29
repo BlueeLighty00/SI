@@ -16,6 +16,9 @@ setfacl -m g:proyectos_x:x ./proyectos
 setfacl -m g:pruebas_r:r ./proyectos/pruebas
 setfacl -m g:pruebas_w:w ./proyectos/pruebas
 setfacl -m g:pruebas_x:x ./proyectos/pruebas
+setfacl -m d:g:pruebas_r:r ./proyectos/pruebas
+setfacl -m d:g:pruebas_w:w ./proyectos/pruebas
+setfacl -m d:g:pruebas_x:x ./proyectos/pruebas
 
 setfacl -m d:g:src_r:r ./proyectos/src
 setfacl -m d:g:src_w:w ./proyectos/src
