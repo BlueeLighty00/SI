@@ -1,6 +1,18 @@
 function fntFuncion1
 {
-  Write-Host "F1"
+  $file_groups=Import-Csv -Path CSV\grupos.csv -Delimiter ';'
+  foreach ($group in $file_groups) { 
+    New-LocalGroup -Name $group.nombre -Description $group.description
+  }
+
+  $file_users=Import-Csv -Path CSV\usuarios.csv -Delimiter ';'
+  foreach ($user in $file_users) { 
+    $clave=ConvertTo-SecureString $user.password -AsPlainText -Force
+    New-LocalUser $user.cuenta -Password $clave -Description $user.descripcion -AccountNeverExpires -PasswordNeverExpires
+    #Añadimos la cuenta de usuario en el grupo de Usuarios del sistema
+    Add-LocalGroupMember -Group $user.grupo -Member $user.cuenta
+    Add-LocalGroupMember -Group usuarios -Member $user.cuenta
+  }
 }
 
 function fntFuncion2
