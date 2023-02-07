@@ -6,9 +6,6 @@ nombre;description
 1bach;grupo de 1BACH
 2bach;grupo de 2BACH
 1dam;grupo de 1DAM
-publico_r;lectura publico
-publico_w;escritura publico
-publico_x; ejecucion publico
 1eso_r;lectura 1ESO
 1eso_w;escritura 1ESO
 1eso_x; ejecucion 1ESO
