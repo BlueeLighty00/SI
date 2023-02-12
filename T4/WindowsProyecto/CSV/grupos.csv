@@ -9,23 +9,16 @@ profesorado;grupo profesorado
 2bach;grupo de 2BACH
 1dam;grupo de 1DAM
 1eso_r;lectura 1ESO
-1eso_w;escritura 1ESO
-1eso_x;ejecucion 1ESO
+1eso_f;fullcontrol 1ESO
 2eso_r;lectura 2ESO
-2eso_w;escritura 2ESO
-2eso_x;ejecucion 2ESO
+2eso_f;fullcontrol 2ESO
 3eso_r;lectura 3ESO
-3eso_w;escritura 3ESO
-3eso_x;ejecucion 3ESO
+3eso_f;fullcontrol 3ESO
 4eso_r;lectura 4ESO
-4eso_w;escritura 4ESO
-4eso_x;ejecucion 4ESO
+4eso_f;fullcontrol 4ESO
 1bach_r;lectura 1BACH
-1bach_w;escritura 1BACH
-1bach_x;ejecucion 1BACH
+1bach_f;fullcontrol 1BACH
 2bach_r;lectura 2BACH
-2bach_w;escritura 2BACH
-2bach_x;ejecucion 2BACH
+2bach_f;fullcontrol 2BACH
 1dam_r;lectura 1DAM
-1dam_w;escritura 1DAM
-1dam_x;ejecucion 1DAM
+1dam_f;fullcontrol 1DAM

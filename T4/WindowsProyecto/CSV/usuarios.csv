@@ -1,10 +1,10 @@
-cuenta;descripcion;grupo;password
-1ESO;Usuario 1ESO;1eso;JHj#99y#8
-2ESO;Usuario 2ESO;2eso;JHj#99y#8
-3ESO;Usuario 3ESO;3eso;JHj#99y#8
-4ESO;Usuario 4ESO;4eso;JHj#99y#8
-1BACH;Usuario 1BACH;1bach;JHj#99y#8
-2BACH;Usuario 2BACH;2bach;JHj#99y#8
-1DAM;Usuario 1DAM;1dam;JHj#99y#8
-alumnado;Usuario alumnado;alumnado;JHj#99y#8
-profesorado;Usuario profesorado;profesorado;JHj#99y#8
+cuenta;descripcion;grupo;password;horainicial;horafinal;dias
+jony;Usuario 1ESO;1eso;JHj#99y#8;8AM;9AM;L-V
+iker;Usuario 2ESO;2eso;JHj#99y#8;9AM;10AM;L-V
+oscar;Usuario 3ESO;3eso;JHj#99y#8;M-F;10AM;11AM;L-V
+isaac;Usuario 4ESO;4eso;JHj#99y#8;11AM;12PM;L-V
+fede;Usuario 1BACH;1bach;JHj#99y#8;12PM;1PM;L-V
+alberto;Usuario 2BACH;2bach;JHj#99y#8;1PM;2PM;L-V
+piti;Usuario 1DAM;1dam;JHj#99y#8;3PM;9PM;L-V
+fran;Usuario alumnado;alumnado;JHj#99y#8;8AM;9PM;L-V
+juanca;Usuario profesorado;profesorado;JHj#99y#8;8AM;9PM;L-V
