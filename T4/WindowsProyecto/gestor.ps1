@@ -9,7 +9,7 @@ function crearUsuariosGrupos
   foreach ($user in $file_users) { 
     $clave=ConvertTo-SecureString $user.password -AsPlainText -Force
     New-LocalUser $user.cuenta -Password $clave -Description $user.descripcion -AccountNeverExpires -PasswordNeverExpires
-    #Añadimos la cuenta de usuario en el grupo de Usuarios del sistema
+    #AÃ±adimos la cuenta de usuario en el grupo de Usuarios del sistema
     Add-LocalGroupMember -Group $user.grupo -Member $user.cuenta
     Add-LocalGroupMember -Group usuarios -Member $user.cuenta
 
@@ -97,7 +97,7 @@ function borrarGestor
   Remove-Item -Path E:\Publico -Recurse
 }
 
-#Función que nos muestra un menú por pantalla con 3 opciones y una última para salir del mismo.
+#FunciÃ³n que nos muestra un menÃº por pantalla con 3 opciones y una Ãºltima para salir del mismo.
 
 function mostrarMenu 
 { 
@@ -110,8 +110,8 @@ function mostrarMenu
      Write-Host "================ $Titulo================" 
       
      
-     Write-Host "1. Creación de usuarios y de grupos" 
-     Write-Host "2. Creación de estructura de datos" 
+     Write-Host "1. CreaciÃ³n de usuarios y de grupos" 
+     Write-Host "2. CreaciÃ³n de estructura de datos" 
      Write-Host "3. Establecer permisos"
      Write-Host "4. Borrar Gestor Documental"
      Write-Host "s. Presiona 's' para salir" 
@@ -119,7 +119,7 @@ function mostrarMenu
 do 
 { 
      mostrarMenu 
-     $input = Read-Host "Elegir una Opción" 
+     $input = Read-Host "Elegir una OpciÃ³n" 
      switch ($input) 
      { 
            '1' { 
