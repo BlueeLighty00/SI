@@ -6,7 +6,7 @@ hora=$(date -u '+%H')
 horaesp=$(date '+%H')
 
 # Establecer directorio de destino /mnt/nas
-DIR_DESTINO="/mnt/nas/AEMET/meteosat/$(date +"%Y")/$(date +"%-m")/$(date +"%d")"
+DIR_DESTINO="/mnt/nas/AEMET/meteosat/$(date +"%-m")/$(date +"%-d")"
 
 
 wget -P "${DIR_DESTINO}" "https://www.aemet.es/imagenes_d/eltiempo/observacion/satelite/${DATE}${hora}00_s93g.gif"
