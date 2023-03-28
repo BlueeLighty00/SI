@@ -8,4 +8,4 @@ hora=$(date -u '+%H')
 DIR_DESTINO="/mnt/nas/aemet/meteosat/$(date +"%Y")/$(date +"%-m")/$(date +"%d")"
 
 
-wget -P "${DIR_DESTINO}" "https://www.aemet.es/imagenes_d/eltiempo/observacion/rayos/${DATE}${hora}00_s93g.gif
+wget -P "${DIR_DESTINO}" "https://www.aemet.es/imagenes_d/eltiempo/observacion/satelite/${DATE}${hora}00_s93g.gif"
