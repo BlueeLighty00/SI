@@ -2,7 +2,7 @@
 
 DATE=$(date '+%Y%m%d')
 hora=$(date -u '+%H')
-min=$(date -u '+%M')
+min=$(date '+%M')
 
 DIR_DESTINO="/mnt/nas/AEMET/meteosat/$(date +"%Y")/$(date +"%-m")/$(date +"%d")"
 
