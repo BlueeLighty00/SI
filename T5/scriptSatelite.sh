@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Obtener fecha con formato "YYYYMMDD"
-DATE=$(date +"%Y%m%d")
+DATE=$(date '+%Y%m%d')
 hora=$(date -u '+%H')
 
 # Establecer directorio de destino /mnt/nas
