@@ -1,7 +1,7 @@
 #/bin/bash
 
 DATE=$(date '+%Y%m%d')
-hora=$(date -u '+%H')
+hora=$(date '+%H')
 min=$(date '+%M')
 
 DIR_DESTINO="/mnt/nas/AEMET/meteosat/$(date +"%Y")/$(date +"%-m")/$(date +"%d")"
