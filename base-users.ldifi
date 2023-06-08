@@ -1,4 +1,4 @@
-dn: uid=palbag,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=palbag,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -13,7 +13,7 @@ userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/palbag
 
-dn: uid=mcarvalhov,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=mcarvalhov,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -28,7 +28,7 @@ userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/mcarvalhov
 
-dn: uid=jcamposv,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=jcamposv,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -44,7 +44,7 @@ loginShell: /bin/bash
 homeDirectory: /home/jcamposv
 
 
-dn: uid=emonchoc,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=emonchoc,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -59,7 +59,7 @@ userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/emonchoc
 
-dn: uid=bcanavarop,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=bcanavarop,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -74,7 +74,7 @@ userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/bcanavarop
 
-dn: uid=csanchezg,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=csanchezg,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -90,7 +90,7 @@ loginShell: /bin/bash
 homeDirectory: /home/csanchezg
 
 
-dn: uid=lperezr,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=lperezr,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -105,7 +105,7 @@ userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/lperezr
 
-dn: uid=afernandezl,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+dn: uid=afernandezl,ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
