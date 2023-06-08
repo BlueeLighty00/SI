@@ -1,0 +1,121 @@
+dn: uid=palbag,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: palbag
+sn: Alba
+givenName: Piedad
+cn: Piedad Alba
+displayName: Piedad
+uidNumber: 6008
+gidNumber: 5004
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/palbag
+
+dn: uid=mcarvalhov,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mcarvalhov
+sn: Carvalho
+givenName: Manuel
+cn: Manuel Carvalho
+displayName: Manuel
+uidNumber: 6009
+gidNumber: 5004
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/mcarvalhov
+
+dn: uid=jcamposv,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jcamposv
+sn: Campos
+givenName: Javier
+cn: Francisco Campos
+displayName: Javier
+uidNumber: 6010
+gidNumber: 5005
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/jcamposv
+
+
+dn: uid=emonchoc,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: emonchoc
+sn: Moncho
+givenName: Eva
+cn: Eva Moncho
+displayName: Eva
+uidNumber: 6011
+gidNumber: 5005
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/emonchoc
+
+dn: uid=bcanavarop,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: bcanavarop
+sn: Canavaro
+givenName: Beatriz
+cn: Beatriz Canavaro
+displayName: Beatriz
+uidNumber: 6012
+gidNumber: 5006
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/bcanavarop
+
+dn: uid=csanchezg,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: csanchezg
+sn: Sanchez
+givenName: Carlos
+cn: Carlos Sanchez
+displayName: Carlos
+uidNumber: 6013
+gidNumber: 5006
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/csanchezg
+
+
+dn: uid=lperezr,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: lperezr
+sn: Perez
+givenName: Laura
+cn: Laura Perez
+displayName: Laura
+uidNumber: 6014
+gidNumber: 5007
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/lperezr
+
+dn: uid=afernandezl,ou=usuarios,ou=campusCastellon,dc=dam,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: afernandezl
+sn: Fernandez
+givenName: Alejandro
+cn: Alejandro Fernandez
+displayName: Alejandro
+uidNumber: 6015
+gidNumber: 5007
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
+loginShell: /bin/bash
+homeDirectory: /home/afernandezl
