@@ -1,0 +1,20 @@
+#Grupos Globales
+dn: cn=GGInformatica,ou=grupos,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: posixGroup
+cn: GGInformatica
+gidNumber: 5004
+
+dn: cn=GGRectorado,ou=grupos,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: posixGroup
+cn: GGRectorado
+gidNumber: 5005
+
+dn: cn=GGSecretaria,ou=grupos,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: posixGroup
+cn: GGSecretaria
+gidNumber: 5006
+
+dn: cn=GGServiciosU,ou=grupos,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: posixGroup
+cn: GGServiciosU
+gidNumber: 5007
