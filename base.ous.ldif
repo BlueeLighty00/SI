@@ -1,0 +1,13 @@
+#Crear UO de campus
+dn: ou=campusCastellon,dc=equipo3,dc=local
+objectClass: organizationalUnit
+ou: campusCastellon
+
+#Crear UOs de usuarios y grupos dentro de la UO de campus
+dn: ou=usuarios,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=campusCastellon,dc=equipo3,dc=local
+objectClass: organizationalUnit
+ou: grupos
