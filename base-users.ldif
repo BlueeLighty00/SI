@@ -9,7 +9,7 @@ cn: Piedad Alba
 displayName: Piedad
 uidNumber: 6008
 gidNumber: 5004
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/palbag
 
@@ -24,7 +24,7 @@ cn: Manuel Carvalho
 displayName: Manuel
 uidNumber: 6009
 gidNumber: 5004
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/mcarvalhov
 
@@ -39,7 +39,7 @@ cn: Francisco Campos
 displayName: Javier
 uidNumber: 6010
 gidNumber: 5005
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/jcamposv
 
@@ -55,7 +55,7 @@ cn: Eva Moncho
 displayName: Eva
 uidNumber: 6011
 gidNumber: 5005
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/emonchoc
 
@@ -70,7 +70,7 @@ cn: Beatriz Canavaro
 displayName: Beatriz
 uidNumber: 6012
 gidNumber: 5006
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/bcanavarop
 
@@ -85,7 +85,7 @@ cn: Carlos Sanchez
 displayName: Carlos
 uidNumber: 6013
 gidNumber: 5006
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/csanchezg
 
@@ -101,7 +101,7 @@ cn: Laura Perez
 displayName: Laura
 uidNumber: 6014
 gidNumber: 5007
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/lperezr
 
@@ -116,6 +116,6 @@ cn: Alejandro Fernandez
 displayName: Alejandro
 uidNumber: 6015
 gidNumber: 5007
-userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL/Imo
+userPassword: {SSHA}BzRsYwdyuA/qciNBl0xGhETGf02/cXyL
 loginShell: /bin/bash
 homeDirectory: /home/afernandezl
